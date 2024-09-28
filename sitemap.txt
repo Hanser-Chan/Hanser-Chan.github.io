@@ -5,10 +5,10 @@ http://hanser-chan.github.io/essay/index.html
 http://hanser-chan.github.io/tags/index.html
 http://hanser-chan.github.io/categories/index.html
 http://hanser-chan.github.io/
+http://hanser-chan.github.io/tags/GitHub/
+http://hanser-chan.github.io/tags/Learning/
 http://hanser-chan.github.io/tags/Linux/
 http://hanser-chan.github.io/tags/C/
 http://hanser-chan.github.io/tags/xiaomi/
-http://hanser-chan.github.io/tags/GitHub/
-http://hanser-chan.github.io/tags/Learning/
-http://hanser-chan.github.io/categories/Code/
 http://hanser-chan.github.io/categories/University/
+http://hanser-chan.github.io/categories/Code/

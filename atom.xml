@@ -13,6 +13,11 @@
     <name>Hanser Chan</name>
     <email>memechs33@outlook.com</email>
   </author>
+
+  <follow_challenge>
+    <feedId>62816088048091136</feedId>
+    <userId>60485663608807424</userId>
+  </follow_challenge>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   

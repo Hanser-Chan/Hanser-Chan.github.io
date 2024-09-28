@@ -6,20 +6,43 @@
   <link href="http://hanser-chan.github.io/atom.xml" rel="self"/>
   
   <link href="http://hanser-chan.github.io/"/>
-  <updated>2024-09-26T12:08:49.000Z</updated>
+  <updated>2024-09-28T12:21:45.108Z</updated>
   <id>http://hanser-chan.github.io/</id>
   
   <author>
     <name>Hanser Chan</name>
     <email>memechs33@outlook.com</email>
   </author>
-
-  <follow_challenge>
-    <feedId>62816088048091136</feedId>
-    <userId>60485663608807424</userId>
-  </follow_challenge>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>将博客转换成rss并上线follow</title>
+    <link href="http://hanser-chan.github.io/2024/09/28/categories/Code/%E5%B0%86%E5%8D%9A%E5%AE%A2%E8%BD%AC%E6%8D%A2%E6%88%90rss/"/>
+    <id>http://hanser-chan.github.io/2024/09/28/categories/Code/%E5%B0%86%E5%8D%9A%E5%AE%A2%E8%BD%AC%E6%8D%A2%E6%88%90rss/</id>
+    <published>2024-09-28T11:47:29.000Z</published>
+    <updated>2024-09-28T12:21:45.108Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="使用hexo-generator把博客转换成rss"><a href="#使用hexo-generator把博客转换成rss" class="headerlink" title="使用hexo generator把博客转换成rss"></a>使用hexo generator把博客转换成rss</h1><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><h3 id="添加功能插件，在-hexo-项目根目录下执行该命令"><a href="#添加功能插件，在-hexo-项目根目录下执行该命令" class="headerlink" title="添加功能插件，在 hexo 项目根目录下执行该命令"></a>添加功能插件，在 hexo 项目根目录下执行该命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure><h3 id="在-hexo-根目录下的-config-yml-文件中添加配置"><a href="#在-hexo-根目录下的-config-yml-文件中添加配置" class="headerlink" title="在 hexo 根目录下的 _config.yml 文件中添加配置"></a>在 hexo 根目录下的 _config.yml 文件中添加配置</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">订阅RSS</span></span><br><span class="line">feed:</span><br><span class="line">  type: atom</span><br><span class="line">  path: atom.xml</span><br><span class="line">  limit: false</span><br></pre></td></tr></table></figure><p>可选项配置含义：(不想搞就默认上方)</p><p><code>type</code>: RSS的类型(atom&#x2F;rss2)<br><code>path</code>: 文件路径，默认是 <code>atom.xml</code>或者<code>rss2.xml</code><br><code>limit</code>: 展示文章的数量,使用 <code>0</code> 或则 <code>false</code> 代表展示全部<br><code>hub</code>: URL of the PubSubHubbub hubs (如果使用不到可以为空)<br><code>content</code>: （可选）设置 true 可以在 RSS 文件中包含文章全部内容，默认：<code>false</code><br><code>content_limit</code>: （可选）摘要中使用的帖子内容的默认长度。 仅在内容设置为<code>false</code>且未显示自定义帖子描述时才使用。<br><code>content_limit_delim</code>: （可选）如果content_limit用于缩短post内容，则仅在此分隔符的最后一次出现时进行剪切，然后才达到字符限制。默认不使用。<br><code>icon</code>: （可选）自定义订阅图标，默认设置为主配置中指定的图标。<br><code>order_by</code>: 订阅内容的顺序。 (默认: -date)</p><h3 id="在-theme-目录下的-config-yml-文件中添加配置"><a href="#在-theme-目录下的-config-yml-文件中添加配置" class="headerlink" title="在 theme 目录下的 _config.yml 文件中添加配置"></a>在 theme 目录下的 _config.yml 文件中添加配置</h3><blockquote><p>如果是按照安知鱼视频配置的，应该在根目录的_config.anzhiyu.yml里面添加</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rss: /atom.xml</span><br></pre></td></tr></table></figure><h3 id="重新生成博客静态文件并发布"><a href="#重新生成博客静态文件并发布" class="headerlink" title="重新生成博客静态文件并发布"></a>重新生成博客静态文件并发布</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><p>在 <code>public</code> 文件夹中就会生成 <code>atom.xml</code> 文件，部署后直接在根目录中访问该文件即可，在浏览器上就可以直接访问<code>你的网页/atom.xml</code></p><h2 id="订阅"><a href="#订阅" class="headerlink" title="订阅"></a>订阅</h2><p>在这里我们使用新的rss阅读器<code>follow</code>订阅并认证我们的rss。</p><h3 id="找到发现页"><a href="#找到发现页" class="headerlink" title="找到发现页"></a>找到发现页</h3><p>这里我使用的是mac的软件版follow，左上角头像旁可以找到<code>+</code>进入发现页</p><p><img src="https://s2.loli.net/2024/09/28/3H6bUKasZAWqnuo.png" alt="discover"></p><p>在框中输入你的<code>博客地址/atom.xml</code>，预览，添加</p><h3 id="认证你的rss"><a href="#认证你的rss" class="headerlink" title="认证你的rss"></a>认证你的rss</h3><p>右键你自己的订阅，可以找到认证，follow提供3种认证方式，我们选择最后一种xml。你现在需要往自己的xml中添加一小段代码。</p><p>找到博客目录下的<code>public/atom.xml</code></p><p>在这里面直接添加给你的代码，然后直接<code>hexo d</code>发布，不要<code>hexo clean</code>或<code>hexo g</code>。</p><p><img src="https://s2.loli.net/2024/09/28/envW1ExGktmIBud.png" alt="1"></p><p>最后点击认证，即可成功。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;使用hexo-generator把博客转换成rss&quot;&gt;&lt;a href=&quot;#使用hexo-generator把博客转换成rss&quot; class=&quot;headerlink&quot; title=&quot;使用hexo generator把博客转换成rss&quot;&gt;&lt;/a&gt;使用hexo gene</summary>
+      
+    
+    
+    
+    <category term="Code" scheme="http://hanser-chan.github.io/categories/Code/"/>
+    
+    
+    <category term="rss" scheme="http://hanser-chan.github.io/tags/rss/"/>
+    
+    <category term="hexo" scheme="http://hanser-chan.github.io/tags/hexo/"/>
+    
+    <category term="follow" scheme="http://hanser-chan.github.io/tags/follow/"/>
+    
+  </entry>
   
   <entry>
     <title>GitHub 学生认证教程</title>

@@ -1,0 +1,39 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: C++
+      color: "#fff"
+      icon: https://s2.loli.net/2024/09/25/M7FJAXbPylEBZtK.png
+    - name: Docker
+      color: "#57b6e6"
+      icon: https://bu.dusays.com/2023/04/09/643293b0f0abe.png
+    - name: Cuda
+      color: "#333"
+      icon: https://s2.loli.net/2024/09/25/FZuDGUmRY8dsBtP.png
+    - name: Swift
+      color: "#333"
+      icon: https://s2.loli.net/2024/09/25/mnZoF4tEHAgMb9a.png
+    - name: PyTorch
+      color: "#fff"
+      icon: https://s2.loli.net/2024/09/25/Ql8WZRX3L54m7Ps.png
+    - name: Python
+      color: "#fff"
+      icon: https://bu.dusays.com/2023/04/09/643293b1230f7.png
+    - name: TensorFlow
+      color: "#937df7"
+      icon: https://s2.loli.net/2024/09/25/qo6NsLfVgzi3Sp8.png
+    - name: Github
+      color: "#4499e4"
+      icon: https://s2.loli.net/2024/09/25/qWUwIlpkMD5CL8P.png
+    - name: Mi
+      color: "#b8f0ae"
+      icon: https://s2.loli.net/2024/09/25/Tbc4YPjwszFrgBp.png
+    - name: Apple
+      color: "#fff"
+      icon: https://s2.loli.net/2024/09/25/42ZMcGwNECgoiuQ.png
+    - name: MD
+      color: "#fff"
+      icon: https://s2.loli.net/2024/09/25/E4XKdnSsVJQtONF.png
+    - name: Git
+      color: "#df5b40"
+      icon: https://bu.dusays.com/2023/04/09/643293b10ccdd.webp
+    

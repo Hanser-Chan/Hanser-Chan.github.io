@@ -1,0 +1,15 @@
+- title: 动态
+  subTitle: 日常生活
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: https://s2.loli.net/2024/09/25/p4rFtjoGuEBzRgL.jpg
+  essay_list:
+    - content: 上线动态咯
+      date: 2024/09/25
+      video:
+        - https://player.bilibili.com/player.html?aid=226886152&bvid=BV1Ch41137tR&cid=1081639816&p=1&autoplay=0
+    - content: 支持了Accesskey快捷键，可以直接按下shift + ?组合键以查看快捷键选项。
+      date: 2023/07/01

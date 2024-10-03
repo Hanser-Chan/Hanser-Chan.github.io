@@ -3,6 +3,12 @@ title: 小米训练营攻略
 date: 2024-10-01 12:00:00
 top_group_index: 0
 cover: https://s2.loli.net/2024/10/02/jfrSKvUYTngew7G.png
+categories: University
+tags: 
+    - xiaomi
+    - 就业
+    - 攻略
+    - 简历
 ---
 
 # 小米训练营攻略

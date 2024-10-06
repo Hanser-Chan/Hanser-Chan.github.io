@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hanser-chan.github.io/2024/09/28/categories/Code/follow%E9%82%80%E8%AF%B7/</loc>
+    <loc>http://hanser-chan.github.io/docs/xiaomi_camp/</loc>
     
-    <lastmod>2024-09-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://hanser-chan.github.io/2024/09/28/categories/Code/%E5%B0%86%E5%8D%9A%E5%AE%A2%E8%BD%AC%E6%8D%A2%E6%88%90rss/</loc>
-    
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://hanser-chan.github.io/2024/05/01/categories/Code/ff/</loc>
+    <loc>http://hanser-chan.github.io/docs/github_edu/</loc>
     
-    <lastmod>2024-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://hanser-chan.github.io/google59560ae31cf4512d.html</loc>
-    
-    <lastmod>2024-09-26</lastmod>
+    <lastmod>2024-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://hanser-chan.github.io/2024/09/26/categories/University/join%20github%20edu/</loc>
+    <loc>http://hanser-chan.github.io/docs/target/</loc>
     
-    <lastmod>2024-09-26</lastmod>
+    <lastmod>2024-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://hanser-chan.github.io/essay/index.html</loc>
+    <loc>http://hanser-chan.github.io/docs/follow_invite/</loc>
     
-    <lastmod>2024-09-25</lastmod>
+    <lastmod>2024-10-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://hanser-chan.github.io/docs/FFmpeg_so/</loc>
+    
+    <lastmod>2024-10-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://hanser-chan.github.io/docs/hexo_rss/</loc>
+    
+    <lastmod>2024-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +58,16 @@
   <url>
     <loc>http://hanser-chan.github.io/tags/index.html</loc>
     
-    <lastmod>2024-09-25</lastmod>
+    <lastmod>2024-10-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://hanser-chan.github.io/google59560ae31cf4512d.html</loc>
+    
+    <lastmod>2024-10-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +76,16 @@
   <url>
     <loc>http://hanser-chan.github.io/categories/index.html</loc>
     
-    <lastmod>2024-09-25</lastmod>
+    <lastmod>2024-10-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://hanser-chan.github.io/essay/index.html</loc>
+    
+    <lastmod>2024-10-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +94,7 @@
 
   <url>
     <loc>http://hanser-chan.github.io/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,56 +102,91 @@
   
   <url>
     <loc>http://hanser-chan.github.io/tags/Linux/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://hanser-chan.github.io/tags/C/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://hanser-chan.github.io/tags/xiaomi/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://hanser-chan.github.io/tags/rss/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://hanser-chan.github.io/tags/follow/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://hanser-chan.github.io/tags/hexo/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://hanser-chan.github.io/tags/GitHub/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://hanser-chan.github.io/tags/Learning/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://hanser-chan.github.io/tags/%E5%B0%B1%E4%B8%9A/</loc>
+    <lastmod>2024-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://hanser-chan.github.io/tags/%E6%94%BB%E7%95%A5/</loc>
+    <lastmod>2024-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://hanser-chan.github.io/tags/%E7%AE%80%E5%8E%86/</loc>
+    <lastmod>2024-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://hanser-chan.github.io/tags/%E7%9B%AE%E6%A0%87/</loc>
+    <lastmod>2024-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://hanser-chan.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -142,14 +195,21 @@
   
   <url>
     <loc>http://hanser-chan.github.io/categories/Code/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://hanser-chan.github.io/categories/University/</loc>
-    <lastmod>2024-09-28</lastmod>
+    <lastmod>2024-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://hanser-chan.github.io/categories/Live/</loc>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

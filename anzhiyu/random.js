@@ -1,3 +1,3 @@
-var posts=["2024/05/01/categories/Code/ff/","2024/09/28/categories/Code/follow邀请/","2024/09/28/categories/Code/将博客转换成rss/","2024/09/26/categories/University/join github edu/"];function toRandomPost(){
+var posts=["docs/FFmpeg_so/","docs/follow_invite/","docs/hexo_rss/","docs/github_edu/","docs/xiaomi_camp/","docs/target/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };

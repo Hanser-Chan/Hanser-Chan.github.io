@@ -2,56 +2,53 @@
 title: 将FFmpeg编译成单独的动态链接库
 categories: Code
 date: 2024-05-01 11:00:00
-tags: 
-   - Linux
-   - C++
-   - xiaomi
+path_en: FFmpeg_so
+tags:
+  - Linux
+  - C++
+  - xiaomi
 cover: https://s2.loli.net/2024/09/25/XT5whkUWF6QJrEA.jpg
+alias: 2024/05/01/categories/Code/ff/index.html
 ---
 
+# 将 FFmpeg 编译成单独的动态链接库
 
-
-# 将FFmpeg编译成单独的动态链接库
-
+> 该教程只实现在**Linux(WSL)**环境对**ffmpeg4.4** + **android-ndk 21**的编译
 >
->
->该教程只实现在**Linux(WSL)**环境对**ffmpeg4.4** + **android-ndk 21**的编译
->
->现成编译好的在**release**，只实现在安卓上的**arm**架构，x86请自行探索
+> 现成编译好的在**release**，只实现在安卓上的**arm**架构，x86 请自行探索
 
-
-来这里找现成的：[跳转到release](https://github.com/Hanser-Chan/ffmpeg-android-ndk-build-help/releases/tag/so)
+来这里找现成的：[跳转到 release](https://github.com/Hanser-Chan/ffmpeg-android-ndk-build-help/releases/tag/so)
 这有一个实现：[小米训练营大作业](https://github.com/Hanser-Chan/MI_HW/tree/master/BIGHW)
-
-
 
 ## 链接为一个库
 
-### 配置下载好ndk库
+### 配置下载好 ndk 库
 
-在终端运行：bash的用`~/.bashrc`
+在终端运行：bash 的用`~/.bashrc`
 
 ```bash
 sudo vim ~/.zshrc
 ```
+
 文件里添加：记得更改自己的路径
+
 ```
 export ANDROID_NDK=/home/ubuntu2204/Android/Sdk/ndk/21.3.6528147
 
 export PATH=$PATH:$ANDROID_NDK
 ```
+
 使用`:wq`退出
+
 ```bash
-source ~/.zshrc 
+source ~/.zshrc
 
 ndk-build -v
 ```
 
+### 编译 ffmpeg 库
 
-
-### 编译ffmpeg库
-
-直接将`ndk-build-only.sh`放置在ffmpeg目录下
+直接将`ndk-build-only.sh`放置在 ffmpeg 目录下
 
 ```bash
 ./ndk-build-only.sh
@@ -59,13 +56,9 @@ ndk-build -v
 
 等待编译即可
 
-
-
 ### 解读脚本
 
->
->
->**记得更换路径**，下面已经标记所有可能需要更换路径的地方
+> **记得更换路径**，下面已经标记所有可能需要更换路径的地方
 
 #### 整体设置
 
@@ -108,7 +101,7 @@ ndk-build -v
 #make clean
 API=21
 #记得换路径！！！这里必须换
-NDK=/home/cherry/workspace/Android/Sdk/ndk/21.3.6528147 
+NDK=/home/cherry/workspace/Android/Sdk/ndk/21.3.6528147
 #记得换路径！！！
 TOOLCHAIN=$NDK/toolchains/llvm/prebuilt/linux-x86_64
 #记得换路径！！！
@@ -159,7 +152,7 @@ $OUTPUT/libffmpeg.so \
     -lc -lm -lz -ldl -llog --dynamic-linker=/system/bin/linker \
     $COMBILE_TOOLCHAIN_GCC
 }
- 
+
 #arm64-v8a
 ARCH=arm64
 CPU=armv8-a
@@ -173,7 +166,7 @@ COMBILE_PLATFORM=$NDK/platforms/android-$API/arch-arm64 #
 COMBILE_TOOLCHAIN_LD=$NDK/toolchains/$CPU_INSTRUCT_COMMON-4.9/prebuilt/linux-x86_64/bin/$CPU_INSTRUCT_COMMON-ld
 COMBILE_TOOLCHAIN_GCC=$NDK/toolchains/$CPU_INSTRUCT_COMMON-4.9/prebuilt/linux-x86_64/lib/gcc/$CPU_INSTRUCT_COMMON/4.9.x/libgcc.a
 build_android
- 
+
 #armeabi-v7a
 ARCH=arm
 CPU=armv7-a
@@ -188,8 +181,6 @@ COMBILE_TOOLCHAIN_LD=$NDK/toolchains/$CPU_INSTRUCT_COMMON-4.9/prebuilt/linux-x86
 COMBILE_TOOLCHAIN_GCC=$NDK/toolchains/$CPU_INSTRUCT_COMMON-4.9/prebuilt/linux-x86_64/lib/gcc/$CPU_INSTRUCT_COMMON/4.9.x/libgcc.a
 build_android
 ```
-
-
 
 ## 链接为多个库
 

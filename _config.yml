@@ -15,7 +15,8 @@ email: memechs33@outlook.com
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://hanser-chan.github.io
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/
+permalink: docs/:path_en/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -107,7 +108,6 @@ deploy:
   branch: main
   ignore_hidden: false # 忽略隐藏文件及文件夹(目录)
 
-  
 #订阅RSS
 feed:
   type: atom
@@ -136,3 +136,10 @@ hexo_seo_autopush:
     date: created
     count: 10
 
+#重定向
+alias:
+  # 访问 https://zahui.fan/index.html  跳转到  https://zahui.fan/
+  index.html: /
+
+  # 访问 https://zahui.fan/tags/flask/ 跳转到 https://zahui.fan/tags/Flask/
+  tags/flask/: tags/Flask/

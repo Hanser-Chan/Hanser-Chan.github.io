@@ -1,3 +1,4 @@
+http://hanser-chan.github.io/docs/book_duoyu/
 http://hanser-chan.github.io/docs/target/
 http://hanser-chan.github.io/docs/xiaomi_camp/
 http://hanser-chan.github.io/docs/follow_invite/

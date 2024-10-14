@@ -6,7 +6,7 @@
   <link href="http://hanser-chan.github.io/atom.xml" rel="self"/>
   
   <link href="http://hanser-chan.github.io/"/>
-  <updated>2024-10-13T13:02:09.011Z</updated>
+  <updated>2024-10-14T12:26:14.991Z</updated>
   <id>http://hanser-chan.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>408算法题汇总</title>
+    <link href="http://hanser-chan.github.io/docs/csky408_algo/"/>
+    <id>http://hanser-chan.github.io/docs/csky408_algo/</id>
+    <published>2024-10-14T12:09:00.000Z</published>
+    <updated>2024-10-14T12:26:14.991Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="408考研算法题汇总"><a href="#408考研算法题汇总" class="headerlink" title="408考研算法题汇总"></a>408考研算法题汇总</h1><p>最近复习408考研，我在做算法题的时候，顺便就把题目敲成代码，这样感觉比手写更好理解。</p><p>可以来我的库里面查看哦。<a href="https://github.com/Hanser-Chan/Algorithm-Library/tree/main/408">点我直达代码仓库</a></p><blockquote><p>计算机学科专业基础综合-&gt;<strong>数据结构算法题</strong>代码示例</p></blockquote><p>本目录结构 <code>考点 -&gt; 年份 + 题目</code>，整体思路参考每一项的<code>README.md</code>。</p><p>其中一些考点添加基本操作实现。</p><h2 id="数组应用"><a href="#数组应用" class="headerlink" title="数组应用"></a>数组应用</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">└── 数组</span><br><span class="line">    ├── 2011中位数</span><br><span class="line">    ├── 2013主元素</span><br><span class="line">    └── 2018最小整数</span><br></pre></td></tr></table></figure><h2 id="链表应用"><a href="#链表应用" class="headerlink" title="链表应用"></a>链表应用</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">└── 链表</span><br><span class="line">    ├── 2009链表倒数</span><br><span class="line">    ├── 2012后缀</span><br><span class="line">    ├── 2015删除重复</span><br><span class="line">    ├── 2019重新排列</span><br><span class="line">    └── LinkedListCpp</span><br></pre></td></tr></table></figure><h2 id="树"><a href="#树" class="headerlink" title="树"></a>树</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── 树</span><br><span class="line">    ├── 2014WPL</span><br><span class="line">    └── 2017中缀表达式</span><br></pre></td></tr></table></figure><h2 id="图"><a href="#图" class="headerlink" title="图"></a>图</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">├── 图</span><br><span class="line">    ├── 2021一笔画</span><br><span class="line">    └── 2023K顶点</span><br></pre></td></tr></table></figure><h2 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h2><p>整理了各种考试有代码需求的排序算法，包括快排和归并。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;408考研算法题汇总&quot;&gt;&lt;a href=&quot;#408考研算法题汇总&quot; class=&quot;headerlink&quot; title=&quot;408考研算法题汇总&quot;&gt;&lt;/a&gt;408考研算法题汇总&lt;/h1&gt;&lt;p&gt;最近复习408考研，我在做算法题的时候，顺便就把题目敲成代码，这样感觉比手写</summary>
+      
+    
+    
+    
+    <category term="Code" scheme="http://hanser-chan.github.io/categories/Code/"/>
+    
+    
+    <category term="C++" scheme="http://hanser-chan.github.io/tags/C/"/>
+    
+    <category term="408考研" scheme="http://hanser-chan.github.io/tags/408%E8%80%83%E7%A0%94/"/>
+    
+    <category term="算法" scheme="http://hanser-chan.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>《多余的话》读书笔记</title>
@@ -108,7 +136,7 @@
     <published>2024-09-28T13:23:34.000Z</published>
     <updated>2024-10-06T04:58:20.810Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="欢迎大家来关注我的-follow"><a href="#欢迎大家来关注我的-follow" class="headerlink" title="欢迎大家来关注我的 follow"></a>欢迎大家来关注我的 follow</h1><p>将这个网址复制到 follow 加入就可以咯<br><a href="https://hanser-chan.github.io/atom.xml">https://hanser-chan.github.io/atom.xml</a></p><h1 id="获取我的-follow-邀请码"><a href="#获取我的-follow-邀请码" class="headerlink" title="获取我的 follow 邀请码"></a>获取我的 follow 邀请码</h1><p>可邮箱联系我：<a href="mailto:&#x6d;&#101;&#109;&#x65;&#x63;&#104;&#115;&#x33;&#x33;&#x40;&#111;&#x75;&#116;&#x6c;&#111;&#111;&#x6b;&#x2e;&#99;&#111;&#x6d;">&#x6d;&#101;&#109;&#x65;&#x63;&#104;&#115;&#x33;&#x33;&#x40;&#111;&#x75;&#116;&#x6c;&#111;&#111;&#x6b;&#x2e;&#99;&#111;&#x6d;</a></p><p>预计 10.2 能新发一份邀请码</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="欢迎大家来关注我的-follow"><a href="#欢迎大家来关注我的-follow" class="headerlink" title="欢迎大家来关注我的 follow"></a>欢迎大家来关注我的 follow</h1><p>将这个网址复制到 follow 加入就可以咯<br><a href="https://hanser-chan.github.io/atom.xml">https://hanser-chan.github.io/atom.xml</a></p><h1 id="获取我的-follow-邀请码"><a href="#获取我的-follow-邀请码" class="headerlink" title="获取我的 follow 邀请码"></a>获取我的 follow 邀请码</h1><p>可邮箱联系我：<a href="mailto:&#109;&#x65;&#x6d;&#101;&#99;&#x68;&#x73;&#51;&#51;&#x40;&#111;&#x75;&#116;&#108;&#111;&#x6f;&#107;&#x2e;&#99;&#111;&#x6d;">&#109;&#x65;&#x6d;&#101;&#99;&#x68;&#x73;&#51;&#51;&#x40;&#111;&#x75;&#116;&#108;&#111;&#x6f;&#107;&#x2e;&#99;&#111;&#x6d;</a></p><p>预计 10.2 能新发一份邀请码</p>]]></content>
     
     
       
@@ -149,9 +177,9 @@
     
     <category term="rss" scheme="http://hanser-chan.github.io/tags/rss/"/>
     
-    <category term="follow" scheme="http://hanser-chan.github.io/tags/follow/"/>
-    
     <category term="hexo" scheme="http://hanser-chan.github.io/tags/hexo/"/>
+    
+    <category term="follow" scheme="http://hanser-chan.github.io/tags/follow/"/>
     
   </entry>
   

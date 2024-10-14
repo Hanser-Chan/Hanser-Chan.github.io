@@ -1,3 +1,4 @@
+http://hanser-chan.github.io/docs/csky408_algo/
 http://hanser-chan.github.io/docs/book_duoyu/
 http://hanser-chan.github.io/docs/target/
 http://hanser-chan.github.io/docs/xiaomi_camp/

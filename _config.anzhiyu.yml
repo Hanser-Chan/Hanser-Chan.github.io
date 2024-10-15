@@ -67,6 +67,7 @@ copy:
 #   name: link || icon
 social:
   Github: https://github.com/Hanser-Chan || anzhiyu-icon-github
+  Mail: mailto:memechs33@outlook.com || anzhiyu-icon-envelope
   #BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
 
 # 作者卡片 状态
@@ -287,9 +288,9 @@ post_pagination: 2
 
 # Displays outdated notice for a post (文章过期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
-  limit_day: 365 # When will it be shown
+  limit_day: 100 # When will it be shown
   position: top # position: top/bottom
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
@@ -418,7 +419,7 @@ footer:
     since: 2024
   custom_text:
   runtime:
-    enable: true
+    enable: false
     launch_time: 09/24/2024 18:00:00 # 网站上线时间
     # work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     # work_description: 距离月入25k也就还差一个大佬带我~
@@ -445,7 +446,7 @@ footer:
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
       #   message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
   socialBar:
-    enable: false
+    enable: true
     centerImg:
     left:
       - title: email
@@ -840,9 +841,9 @@ aside:
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time

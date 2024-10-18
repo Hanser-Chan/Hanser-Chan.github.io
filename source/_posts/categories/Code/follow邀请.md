@@ -1,5 +1,5 @@
 ---
-title: 获取follow邀请码(可预约10.2)
+title: 获取follow邀请码(可预约10.20)
 date: 2024-9-28 21:23:34
 path_en: follow_invite
 categories: Code
@@ -18,4 +18,6 @@ https://hanser-chan.github.io/atom.xml
 
 可邮箱联系我：memechs33@outlook.com
 
-预计 10.2 能新发一份邀请码
+预计 10.20 能新发一份邀请码
+
+欢迎大家来订阅我创建的列表哦：[跳转到列表页](https://app.follow.is/list/67124079970119680)
